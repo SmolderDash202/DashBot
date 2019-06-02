@@ -1,12 +1,10 @@
 const Discord = require('discord.js'),
       client = new Discord.Client(),
-      fs = require('fs'),
-      enmap = require('enmap');
+      fs = require('fs');
 
 client.login(process.env.TOKEN);
 
 client.commands = new Discord.Collection();
-client.queue = new Map();
 
 fs.readdir("./Commandes/", (error, f) => {
     if(error) console.log(error);
