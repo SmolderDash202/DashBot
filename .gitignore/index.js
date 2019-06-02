@@ -3,7 +3,7 @@ const Discord = require('discord.js'),
       fs = require('fs'),
       enmap = require('enmap');
 
-client.login("NTg0MDE0NzMzNTA2NzczMDQ1.XPEwVw.a1hKAZIeYWvty6BcCPBREdBFNX8")
+client.login(process.env.TOKEN);
 
 client.commands = new Discord.Collection();
 client.queue = new Map();
