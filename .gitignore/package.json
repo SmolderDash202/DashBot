@@ -11,11 +11,10 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "fs": "0.0.1-security",
-    "random-cat": "^1.0.1",
-    "random-puppy": "^1.1.0",
     "ytdl-core": "^0.29.1",
     "ytdl-core-discord": "amishshah/ytdl-core-discord",
     "opusscript": "0.0.6",
-    "moment": "2.24.0"
+    "moment": "2.24.0",
+    "superagent": "5.0.6"
   }
 }
