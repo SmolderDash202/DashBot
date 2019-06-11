@@ -3,7 +3,7 @@ const Discord = require("discord.js"),
 
 module.exports.run = async(client, message, args) => {
 
-    let msg = await message.channel.send("Génération...");
+    let msg = await message.channel.send("Lancement du dé...");
 
     let {body} = await superagent.get(`https://dice-roll-koisusimkz.now.sh/d6`);
     if(!{body}) return message.channel.send(":x: Erreur - Une erreur inconnue est survenue.");
