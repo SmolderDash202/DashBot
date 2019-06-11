@@ -12,7 +12,7 @@ module.exports.run = async(client, message, args) => {
         embed: {
             color: 0xffffff,
             title: "Chat aléatoire",
-            description:`Voici le chat que **${message.author.username}** a demandé`,
+            description:`Voici le chien que **${message.author.username}** a demandé`,
             image:{
                 url: `${body.message}`
             }
