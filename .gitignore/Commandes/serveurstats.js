@@ -47,7 +47,7 @@ module.exports.run = async(client, message, args) => {
                 }
             ]
         }
-    });
+    }).catch(console.error);
 };
 
 module.exports.help = {
